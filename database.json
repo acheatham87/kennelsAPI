@@ -1,8 +1,8 @@
 {
     "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Parsley", "breed": "Great Dane" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
+        { "id": 1, "name": "Doodles", "breed": "Poodle", "locationId": 1, "customerId": 1 },
+        { "id": 2, "name": "Parsley", "breed": "Great Dane", "locationId": 2, "customerId": 2 },
+        { "id": 3, "name": "Esme", "breed": "Pitbull", "locationId": 1, "customerId": 1 }
     ],
     "customers": [
         {
@@ -16,7 +16,23 @@
             "address": "1211 Naboo Lane"
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "id": 1, 
+            "name": "Brenda Bong",
+            "locationId": 1
+        },
+        {
+            "id": 2, 
+            "name": "Bipp Binton",
+            "locationId": 2
+        }, 
+        {
+            "id": 3, 
+            "name": "Bakota Bambert",
+            "locationId": 1
+        }
+    ],
     "locations": [
         {
             "id": 1,
