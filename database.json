@@ -1,48 +1,136 @@
 {
-    "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle", "locationId": 1, "customerId": 1 },
-        { "id": 2, "name": "Parsley", "breed": "Great Dane", "locationId": 2, "customerId": 2 },
-        { "id": 3, "name": "Esme", "breed": "Pitbull", "locationId": 1, "customerId": 1 }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Luke Skywalker",
-            "address": "976 Tatooine Dr."
-        },
-         {
-            "id": 2,
-            "name": "Padmé Amidala",
-            "address": "1211 Naboo Lane"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1, 
-            "name": "Brenda Bong",
-            "locationId": 1
-        },
-        {
-            "id": 2, 
-            "name": "Bipp Binton",
-            "locationId": 2
-        }, 
-        {
-            "id": 3, 
-            "name": "Bakota Bambert",
-            "locationId": 1
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "locationId": 1,
+      "customerId": 1
+    },
+    {
+      "id": 2,
+      "name": "Petunia",
+      "breed": "Mutt",
+      "locationId": 2,
+      "customerId": 2
+    },
+    {
+      "id": 3,
+      "name": "Gracie",
+      "breed": "English Mastiff",
+      "locationId": 1,
+      "customerId": 3
+    },
+    {
+      "id": 4,
+      "name": "Lilly",
+      "breed": "Shitzu",
+      "locationId": 2,
+      "customerId": 4
+    }, 
+    {
+      "id": 5,
+      "name": "Paul",
+      "breed": "Golden Retreiver",
+      "locationId": 1,
+      "customerId": 1
+    }, 
+    {
+      "id": 6,
+      "name": "Doc",
+      "breed": "Black Lab",
+      "locationId": 2,
+      "customerId": 2
+    },
+    {
+      "id": 7,
+      "name": "Titan",
+      "breed": "Great Dane",
+      "locationId": 1,
+      "customerId": 3
+    },
+    {
+      "id": 8,
+      "name": "Scout",
+      "breed": "Cattle Dog",
+      "locationId": 2,
+      "customerId": 4
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Luke Skywalker",
+      "address": "976 Tatooine Dr."
+    },
+    {
+      "id": 2,
+      "name": "Padmé Amidala",
+      "address": "1211 Naboo Lane"
+    },
+    {
+      "id": 3,
+      "name": "Obi-Wan Kenobi",
+      "address": "Luke Skywalker Adjacent"
+    },
+    {
+      "id": 4,
+      "name": "Darth Maul",
+      "address": "Currently Residing in 2 places"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Brenda Bong",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Bipp Binton",
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "Bakota Bambert",
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Barla Bichols",
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Buke Blater",
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "name": "Bory Blart",
+      "locationId": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "id": 3,
+      "name": "Nashville East",
+      "address": "8422 Maifeld Pike"
+    },
+    {
+      "id": 4,
+      "name": "Nashville West",
+      "address": "209 Jordan Drive"
+    }
+  ]
 }
