@@ -27,14 +27,14 @@
       "breed": "Shitzu",
       "locationId": 2,
       "customerId": 4
-    }, 
+    },
     {
       "id": 5,
       "name": "Paul",
       "breed": "Golden Retreiver",
       "locationId": 1,
       "customerId": 1
-    }, 
+    },
     {
       "id": 6,
       "name": "Doc",
@@ -43,18 +43,19 @@
       "customerId": 2
     },
     {
-      "id": 7,
-      "name": "Titan",
-      "breed": "Great Dane",
-      "locationId": 1,
-      "customerId": 3
-    },
-    {
       "id": 8,
       "name": "Scout",
       "breed": "Cattle Dog",
       "locationId": 2,
       "customerId": 4
+    },
+    {
+      "name": "Vishy",
+      "breed": "Schnauzer",
+      "locatoinId": 0,
+      "customerId": 4,
+      "locationId": 3,
+      "id": 9
     }
   ],
   "customers": [
@@ -77,6 +78,12 @@
       "id": 4,
       "name": "Darth Maul",
       "address": "Currently Residing in 2 places"
+    },
+    {
+      "name": "Chris Larsen",
+      "locationId": 1,
+      "address": "Somewhere in Clarksville",
+      "id": 5
     }
   ],
   "employees": [
@@ -109,6 +116,11 @@
       "id": 6,
       "name": "Bory Blart",
       "locationId": 1
+    },
+    {
+      "name": "Balex Bevy",
+      "locationId": 1,
+      "id": 7
     }
   ],
   "locations": [
@@ -128,9 +140,9 @@
       "address": "8422 Maifeld Pike"
     },
     {
-      "id": 4,
-      "name": "Nashville West",
-      "address": "209 Jordan Drive"
+      "name": "Nashville South",
+      "address": "Berry Hill-ish",
+      "id": 4
     }
   ]
 }
